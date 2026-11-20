@@ -1,0 +1,121 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aqua;
+    font-family: Arial,sans-serif;
+    color: #222;
+}
+section-title{
+    position: sticky;
+    top: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    text-decoration: Algerian;
+    display: Algerian;
+    
+    background-color: rgb(80, 186, 212);
+    color: rgb(221, 235, 31);
+    position: sticky;
+    top: 0;
+}
+.nav{
+    height: 100vh;
+    
+    display: flex;
+    align-items: flex-end;
+    
+    background-color: rgb(189, 169, 60);
+    font-size: 1em;
+}
+nav a{
+    color: white;
+    text-shadow: #222;
+    font-size: 1em;
+    align-items: flex-end;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    font-style: oblique;
+    align-content: end;
+
+}
+#Home{
+    background-color: rgb(233, 84, 129);
+    
+    width:95vw;
+    height: 100vh;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 15px;
+    background-image: url(../MEDIA/item\ 2);
+}
+
+#About_Us{
+    background-color: rgb(163, 114, 51);
+    background-image: url(../MEDIA/item\ 1);
+    
+    width:100vw;
+    height: 90vh;
+    
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    margin-right: 15px;}
+#Courses{
+    background-color: rgb(105, 168, 209);
+    
+    width:100vw;
+    height: 90vh;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 15px;
+    }
+#Timetable{
+    background-color: rgb(18, 153, 79);
+    
+    width:90vw;
+    height: 100vh;
+    i
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 15px;
+    }
+    #Registration{
+    background-color: rgb(18, 153, 79);
+    
+    width:90vw;
+    height: 100vh;
+    i
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 15px;
+    }
+.brand-name{
+    margin-right: auto;
+    margin-left: 15px;
+}
+.brand-name h1{
+    color: goldenrod;
+    font-size: 20px;
+    white-space: nowrap;
+    margin: 0;
+}
+.brand-name p{
+    color: white;
+    font-size: 11px;
+    margin-top: 5px;
+}
